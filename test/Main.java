@@ -6,7 +6,7 @@ import geometry3d.Cylinder;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("=== Тестирование геометрических фигур ===\n");
+        System.out.println("Тестирование геометрических фигур\n");
 
         System.out.println("1. Тестирование 2D фигур:");
         Circle circle = new Circle(5.0);
@@ -26,4 +26,5 @@ public class Main {
         System.out.println("Объем цилиндра с круглым основанием: " + cylinder1.Volume());
         System.out.println("Объем цилиндра с прямоугольным основанием: " + cylinder2.Volume());
     }
+
 }
